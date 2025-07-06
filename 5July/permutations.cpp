@@ -1,6 +1,7 @@
 class Solution {
 public:
-    void f(vector<int>& nums, int idx, vector<vector<int>>& ans){
+    void f(vector<int>& nums, int idx, vector<vector<int>>& ans)
+{
     // base case
     if(idx == nums.size()){
         ans.push_back(nums);
